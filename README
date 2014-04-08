@@ -1,1 +1,10 @@
+This is a Command Pattern based service to execute CLI. 
+It can used to combine multiple commands to execute and 
+capture all outputs. standard execution form ruby doesn't capture
+all outputs from terminal. This might be of help to those to capture all.
+You can put it in your project and make use of it. 
+
+You can pass in your own logger to log everything in a logger or use a small log service
+to supplemnt it, it can be downloaded from.
+
 LogService git@gitlab.com:ahsan.dar/log-service.git
