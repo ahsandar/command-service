@@ -3,7 +3,8 @@ It can used to combine multiple commands to execute and
 capture all outputs. standard execution form ruby doesn't capture
 all outputs from terminal. This might be of help to those to capture all.
 You can put it in your project and make use of it. 
-
+Same command object can be used multiple times, just remeber to call execute! inplace of execute
+to clear the command palette. If you want to use the same objec I 
 You can pass in your own logger to log everything in a logger or use a small log service
 to supplemnt it, it can be downloaded from.
 
